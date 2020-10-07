@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misha</title>
+</head>
+<body>
+    <script>
+     
+     var string = "фыов33рыфвр";
+     var i = 0;
+     var res = '';
+     do { 
+
+        if ( Number(string[i]) && typeof Number(string[i]) !== NaN ) {
+        
+            res = res + Number(string[i])
+            
+        }
+        
+        i++
+
+     } while ( i < string.length)
+
+    console.log (res);
+
+    </script>
+</body>
+</html>
